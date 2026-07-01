@@ -1,0 +1,73 @@
+project:
+  name: Sprite Easy
+  version: "1.0.0"
+  compiler: basic
+  description: "Compilador básico para converter o jogo para desktop, android, web/poki e backend Abacato."
+
+targets:
+  desktop:
+    type: pc
+    entry: game.html
+    output: dist/desktop
+    include:
+      - game.html
+      - css
+      - js
+      - resource
+      - data
+      - abacato.js
+      - sub-script.json
+  android:
+    type: android
+    entry: game.html
+    output: dist/android
+    include:
+      - game.html
+      - css
+      - js
+      - resource
+      - data
+      - abacato.js
+      - sub-script.json
+    androidManifest: android/AndroidManifest.xml
+  web:
+    type: web
+    entry: game.html
+    output: dist/web
+    include:
+      - game.html
+      - css
+      - js
+      - resource
+      - data
+      - abacato.js
+      - sub-script.json
+    renameEntry: index.html
+  poki:
+    type: web
+    entry: game.html
+    output: dist/poki
+    include:
+      - game.html
+      - css
+      - js
+      - resource
+      - data
+      - abacato.js
+      - sub-script.json
+    renameEntry: index.html
+    meta: "Poki compatible build"
+  abacato:
+    type: backend
+    entry: abacato.js
+    output: dist/abacato-backend
+    include:
+      - abacato.js
+      - criar-backend.yml
+      - sub-script.json
+      - sub-script-vibe-code.yml
+      - sub-sprite-vibe-code.yml
+      - sub-sound-vibe-code.yml
+      - sub-maps-vibe-code.yml
+      - sub-scene-vibe-code.yml
+      - sub-grapix-vibe-code.yml

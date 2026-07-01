@@ -1,0 +1,29 @@
+project:
+  name: Sprite Easy Grapix
+  mode: grapix-vibe-code
+  goal: criar e ajustar efeitos e filtros com economia de créditos de IA
+  tools:
+    - cline
+    - vscode
+    - github
+  caution: |
+    Use este modo para editar efeitos visuais, colormod e ajustes gráficos com cuidado.
+    A IA deve focar em configurações simples e diretas, sem criar detalhes desnecessários.
+
+resource:
+  effects:
+    folder: resource/effects
+    supportedFormats:
+      - json
+  colormod:
+    folder: resource/colormod
+    supportedFormats:
+      - json
+
+configuration:
+  mainConfig: sub-script.json
+  effectConfigPattern: resource/effects/*.json
+  colorConfigPattern: resource/colormod/*.json
+  optionalAiPrompt: |
+    Use este modo para ajustar efeitos visuais e filtros de cor com economia de créditos.
+    A IA deve ser objetiva e trabalhar com os arquivos JSON existentes.

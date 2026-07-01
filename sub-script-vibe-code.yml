@@ -1,0 +1,37 @@
+project:
+  name: Sprite Easy
+  mode: vibe-code
+  goal: reduzir consumo de créditos de IA usando configuração local e JSON
+  tools:
+    - cline
+    - vscode
+    - github
+
+resource:
+  sprites:
+    folder: resource/sprites
+    imageFolder: resource/sprites/img
+    supportedFormats:
+      - png
+      - bmp
+  maps:
+    folder: resource/maps
+  scenes:
+    folder: resource/scenes
+  sounds:
+    folder: resource/sounds
+  effects:
+    folder: resource/effects
+  colormod:
+    folder: resource/colormod
+
+configuration:
+  mainConfig: sub-script.json
+  spriteConfigPattern: resource/sprites/*.json
+  mapConfigPattern: resource/maps/*.json
+  sceneConfigPattern: resource/scenes/*.json
+  creditSaving: true
+  optionalAiPrompt: |
+    Use este projeto como base para editar sprites, maps, scenes, controls, animation, sounds e effects com economia de créditos.
+    Este modo foi criado para reduzir chamadas de IA diretas e evitar gasto rápido de créditos no GitHub Copilot/Cline/VS Code.
+    Seja objetivo e use os arquivos existentes como referência.

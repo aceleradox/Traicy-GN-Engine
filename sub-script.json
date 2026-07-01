@@ -1,0 +1,36 @@
+{
+  "project": {
+    "name": "Sprite Easy",
+    "version": "1.0.0",
+    "target": ["github-pages", "defold"],
+    "entry": "game.html",
+    "rootForGit": true,
+    "backendOptional": true,
+    "backendConfig": "criar-backend.yml"
+  },
+  "sprites": [
+    {
+      "id": "player",
+      "name": "Jogador",
+      "path": "resource/sprites/player.json",
+      "type": "sprite",
+      "image": "resource/sprites/img/placeholder.png"
+    }
+  ],
+  "maps": [
+    {
+      "id": "level-1",
+      "name": "Mapa 1",
+      "path": "resource/maps/level-1.json",
+      "type": "map"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "main",
+      "name": "Cena Inicial",
+      "path": "resource/scenes/main.json",
+      "type": "scene"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "sprite-easy",
+  "version": "1.0.0",
+  "description": "Projeto Sprite Easy com compilador básico para desktop, android, web/poki e backend Abacato.",
+  "scripts": {
+    "build:desktop": "sh build.sh desktop",
+    "build:android": "sh build.sh android",
+    "build:web": "sh build.sh web",
+    "build:poki": "sh build.sh poki",
+    "build:abacato": "sh build.sh abacato"
+  }
+}

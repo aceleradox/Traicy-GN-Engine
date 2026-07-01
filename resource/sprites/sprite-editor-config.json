@@ -1,0 +1,9 @@
+{
+  "name": "Editor de Sprite",
+  "type": "visual-sprite-editor",
+  "target": "defold",
+  "editable": true,
+  "supportedFormats": ["png", "bmp"],
+  "tools": ["Pixel Studio", "Paint.NET"],
+  "notes": "Configuração visual para editar sprites fora do código, em fluxo simples para Defold."
+}

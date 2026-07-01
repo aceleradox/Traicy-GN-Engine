@@ -1,0 +1,17 @@
+{
+  "id": "level-1",
+  "name": "Mapa 1",
+  "type": "map",
+  "platforms": 5,
+  "coins": 8,
+  "notes": "Edite este arquivo para trocar a estrutura do mapa.",
+  "background": "resource/sprites/img/placeholder.png",
+  "tiles": [],
+  "events": [
+    "spawn-player",
+    "collect-coins"
+  ],
+  "audio": {
+    "music": "resource/sounds/theme.mp3"
+  }
+}

@@ -1,0 +1,12 @@
+Manual da pasta resource/sprites/img
+===================================
+
+Função
+------
+Esta pasta é o local para guardar imagens usadas pelos sprites do projeto.
+
+Como usar
+---------
+- Coloque arquivos PNG ou BMP aqui.
+- Use nomes curtos e descritivos.
+- Se trocar a imagem de um sprite, atualize o caminho correspondente no arquivo JSON do sprite.

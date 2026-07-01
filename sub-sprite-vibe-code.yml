@@ -1,0 +1,25 @@
+project:
+  name: Sprite Easy Sprites
+  mode: sprite-vibe-code
+  goal: gerar e editar sprites com economia de créditos de IA
+  tools:
+    - cline
+    - vscode
+    - github
+  caution: |
+    Use este modo apenas se você quiser ajuda para criar sprites. Sprite IA pode ser útil, mas precisa de supervisão do criador.
+
+resource:
+  sprites:
+    folder: resource/sprites
+    imageFolder: resource/sprites/img
+    supportedFormats:
+      - png
+      - bmp
+
+configuration:
+  mainConfig: sub-script.json
+  spriteConfigPattern: resource/sprites/*.json
+  spriteImagePattern: resource/sprites/img/*.{png,bmp}
+  optionalAiPrompt: |
+    Use este arquivo para criar ou ajustar sprites com economia de créditos. Seja objetivo e simples. Não gere designs complexos sem aprovação do criador.

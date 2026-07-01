@@ -1,0 +1,7 @@
+{
+  "name": "Sprite Easy",
+  "target": "defold",
+  "root": ".",
+  "entry": "game.html",
+  "notes": "Arquivo raiz para facilitar a importação e o versionamento no fluxo do Defold."
+}

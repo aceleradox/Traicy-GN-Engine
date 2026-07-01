@@ -1,0 +1,16 @@
+Manual da pasta js
+==================
+
+Função
+------
+Esta pasta contém o núcleo do jogo em JavaScript.
+
+Arquivos principais
+------------------
+- main.js: controla o loop do jogo, input do jogador, física, colisões, HUD e renderização.
+- game-data.js: define os dados do jogo como plataformas, inimigos, moedas, nuvens e posição inicial do jogador.
+
+Como usar
+---------
+- Edite main.js para mudar regras de gameplay, movimentos e eventos.
+- Edite game-data.js para ajustar mapa, inimigos, moedas e física básica.

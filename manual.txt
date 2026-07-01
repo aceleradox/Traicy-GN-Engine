@@ -1,0 +1,28 @@
+Manual geral do projeto Sprite Easy
+=================================
+
+Objetivo
+--------
+Este projeto é uma base simples para criar e testar um jogo 2D em HTML5 Canvas.
+Ele pode ser aberto diretamente no navegador, publicado no GitHub Pages e usado como base para futuras integrações.
+
+Como usar
+---------
+1. Abra o arquivo game.html em um navegador para testar o jogo.
+2. Edite os arquivos da pasta js para mudar a lógica do jogo.
+3. Edite os arquivos da pasta data para mudar configurações gerais.
+4. Edite os arquivos da pasta resource para trocar sprites, mapas, cenas, sons e efeitos.
+5. Use o script build.sh ou os comandos npm para gerar versões para desktop, Android, Web, Poki ou backend.
+
+Pastas principais
+----------------
+- css/: estilos da interface e do jogo.
+- data/: configurações em JSON e YAML.
+- js/: lógica do jogo e dados do jogo.
+- resource/: assets visuais, sonoros e de configuração.
+
+Dicas
+-----
+- Sempre mantenha os arquivos JSON e YAML bem formatados.
+- Se alterar sprites, mapas ou cenas, atualize também os arquivos de configuração relacionados.
+- Para publicar online, use o arquivo game.html como página principal.

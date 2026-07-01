@@ -1,0 +1,25 @@
+project:
+  name: Sprite Easy Backend
+  mode: optional
+  engine: node-express
+  packageManager: npm
+  consentRequired: true
+  description: Backend opcional para salvar dados do jogo, leaderboard, sessões ou configurações.
+
+requirements:
+  - express
+  - body-parser
+  - cors
+
+structure:
+  - package.json
+  - server.js
+  - routes/
+  - middleware/
+
+instructions:
+  - Criar um servidor Express simples com body-parser para aceitar JSON.
+  - Adicionar rotas basicas para healthcheck e salvar dados do jogo.
+  - Usar CORS para permitir integração com o frontend do jogo.
+  - Expor uma porta configuravel via process.env.PORT.
+  - Manter o backend isolado da pasta resource para nao conflitar com o projeto frontend.

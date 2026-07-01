@@ -1,0 +1,45 @@
+name: Sprite Easy
+
+# Estrutura de pastas para importação no GitHub
+resources:
+  - resource/sprites/img/
+  - resource/sprites/
+  - resource/maps/
+  - resource/scenes/
+  - resource/sounds/
+  - resource/effects/
+  - resource/colormod/
+  - css/
+  - js/
+  - data/
+
+files:
+  - game.html
+  - abacato.js
+  - sub-script.json
+  - README.md
+  - sub-script-vibe-code.yml
+  - sub-sprite-vibe-code.yml
+  - sub-sound-vibe-code.yml
+  - sub-maps-vibe-code.yml
+  - sub-scene-vibe-code.yml
+  - sub-grapix-vibe-code.yml
+  - criar-backend.yml
+  - defold-project.json
+  - github-structure.yml
+
+resourceFiles:
+  - resource/sprites/player.json
+  - resource/sprites/sprite-editor-config.json
+  - resource/sprites/img/README.txt
+  - resource/sprites/img/placeholder.png
+  - resource/maps/level-1.json
+  - resource/maps/map-editor-config.json
+  - resource/maps/visual-map-template.json
+  - resource/scenes/main.json
+  - resource/scenes/scene-editor-config.json
+  - resource/sounds/README.txt
+  - resource/effects/dust.json
+  - resource/effects/README.txt
+  - resource/colormod/default.json
+  - resource/colormod/README.txt

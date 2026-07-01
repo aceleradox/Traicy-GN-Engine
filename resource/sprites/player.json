@@ -1,0 +1,25 @@
+{
+  "id": "player",
+  "name": "Jogador",
+  "type": "sprite",
+  "width": 26,
+  "height": 38,
+  "notes": "Edite este arquivo para ajustar o sprite do personagem.",
+  "image": "resource/sprites/img/placeholder.png",
+  "imageFormat": ["png", "bmp"],
+  "editor": ["Pixel Studio", "Paint.NET"],
+  "behavior": {
+    "control": "keyboard-and-touch",
+    "animation": "walk-jump-idle",
+    "speed": 3.4,
+    "jumpHeight": 13.2,
+    "colormod": "resource/colormod/default.json"
+  },
+  "audio": {
+    "jump": "resource/sounds/jump.wav",
+    "hit": "resource/sounds/hit.wav"
+  },
+  "effects": {
+    "dust": "resource/effects/dust.json"
+  }
+}

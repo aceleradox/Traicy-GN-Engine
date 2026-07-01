@@ -1,0 +1,15 @@
+Manual da pasta css
+===================
+
+Função
+------
+Esta pasta guarda os estilos visuais do projeto, incluindo o layout da interface, HUD, botões e tela de overlay.
+
+Arquivo principal
+-----------------
+- style.css: define a aparência do jogo, do canvas, dos botões e das mensagens de vitória/derrota.
+
+Como usar
+---------
+- Edite style.css para mudar cores, tamanhos, posições, sombras e responsividade.
+- Se quiser alterar a aparência do jogo, esta é a pasta certa para começar.

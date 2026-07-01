@@ -1,0 +1,16 @@
+Manual da pasta resource/scenes
+===============================
+
+Função
+------
+Esta pasta guarda as cenas do jogo, como tela inicial, menus e fases.
+
+Arquivos principais
+------------------
+- main.json: cena principal do projeto.
+- scene-editor-config.json: configuração do editor de cenas.
+
+Como usar
+---------
+- Edite main.json para alterar o fluxo inicial da cena.
+- Use a configuração do editor para organizar elementos visuais da cena.

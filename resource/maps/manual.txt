@@ -1,0 +1,18 @@
+Manual da pasta resource/maps
+=============================
+
+Função
+------
+Esta pasta guarda os arquivos de mapa do projeto, incluindo a configuração visual do editor.
+
+Arquivos principais
+------------------
+- level-1.json: mapa inicial do jogo.
+- map-editor-config.json: configuração do editor de mapas.
+- visual-map-template.json: modelo visual para construir novos mapas.
+
+Como usar
+---------
+- Edite level-1.json para criar ou alterar o cenário.
+- Use o template para criar novos mapas com estrutura semelhante.
+- Atualize as configurações do editor se mudar o formato de trabalho.

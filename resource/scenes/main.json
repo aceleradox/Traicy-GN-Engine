@@ -1,0 +1,18 @@
+{
+  "id": "main",
+  "name": "Cena Inicial",
+  "type": "scene",
+  "background": "sky",
+  "music": "none",
+  "notes": "Edite este arquivo para definir a cena principal do jogo.",
+  "map": "resource/maps/level-1.json",
+  "player": "resource/sprites/player.json",
+  "camera": {
+    "followPlayer": true,
+    "smooth": 0.12
+  },
+  "effects": [
+    "resource/effects/dust.json"
+  ],
+  "colormod": "resource/colormod/default.json"
+}

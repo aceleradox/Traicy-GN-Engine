@@ -1,0 +1,12 @@
+{
+  "name": "Cena Visual",
+  "type": "visual-scene-editor",
+  "target": "defold",
+  "editable": true,
+  "layers": [
+    "background",
+    "foreground",
+    "ui"
+  ],
+  "notes": "Configuração visual para editar cenas no fluxo do Defold."
+}

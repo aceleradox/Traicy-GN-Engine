@@ -1,0 +1,17 @@
+Manual da pasta resource/sprites
+================================
+
+Função
+------
+Esta pasta guarda os sprites do jogo, incluindo seus dados e as imagens associadas.
+
+Arquivos principais
+------------------
+- player.json: definição do sprite do jogador.
+- sprite-editor-config.json: configuração visual usada pelo editor de sprites.
+- img/: pasta para imagens PNG/BMP do sprite.
+
+Como usar
+---------
+- Edite player.json para mudar a aparência ou o comportamento do sprite.
+- Coloque imagens na pasta img e atualize o arquivo de configuração quando necessário.

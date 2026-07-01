@@ -1,0 +1,8 @@
+{
+  "name": "dust",
+  "type": "particle",
+  "color": "#f5d742",
+  "count": 12,
+  "duration": 0.4,
+  "notes": "Efeito simples para poeira ao pular ou correr."
+}

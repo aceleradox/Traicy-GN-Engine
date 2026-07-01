@@ -1,0 +1,16 @@
+Manual da pasta data
+====================
+
+Função
+------
+Esta pasta armazena arquivos de configuração externos do projeto em formatos JSON e YAML.
+
+Arquivos principais
+------------------
+- game-config.json: configuração geral em formato JSON.
+- game-config.yml: configuração geral em formato YAML.
+
+Como usar
+---------
+- Altere aqui valores como nomes, opções de jogo e parâmetros compartilhados.
+- Se o projeto crescer, use essa pasta para separar dados de código.

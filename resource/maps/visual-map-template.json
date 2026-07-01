@@ -1,0 +1,14 @@
+{
+  "name": "Mapa Visual",
+  "grid": {
+    "width": 50,
+    "height": 28,
+    "tileSize": 16
+  },
+  "layers": {
+    "ground": [],
+    "decor": [],
+    "objects": []
+  },
+  "notes": "Template visual para editar o mapa de forma simples e compatível com Defold."
+}

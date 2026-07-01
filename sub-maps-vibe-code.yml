@@ -1,0 +1,25 @@
+project:
+  name: Sprite Easy Maps
+  mode: maps-vibe-code
+  goal: criar e editar mapas com economia de créditos de IA
+  tools:
+    - cline
+    - vscode
+    - github
+  caution: |
+    Use este modo para definir e ajustar mapas do jogo sem gerar estruturas complexas desnecessárias.
+    O foco é tornar o processo simples e fácil para a IA entender.
+
+resource:
+  maps:
+    folder: resource/maps
+    supportedFormats:
+      - json
+
+configuration:
+  mainConfig: sub-script.json
+  mapConfigPattern: resource/maps/*.json
+  visualMapConfig: resource/maps/map-editor-config.json
+  optionalAiPrompt: |
+    Use este modo para editar mapas, camadas e objetos do jogo com economia de créditos.
+    A IA deve trabalhar com os arquivos JSON existentes e evitar respostas prolixas.

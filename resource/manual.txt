@@ -1,0 +1,20 @@
+Manual da pasta resource
+=========================
+
+Função
+------
+Esta pasta reúne todos os assets do projeto, como sprites, mapas, cenas, sons, efeitos visuais e filtros.
+
+Subpastas
+---------
+- colormod/: filtros e ajustes de cor.
+- effects/: efeitos visuais e partículas.
+- maps/: arquivos de mapa.
+- scenes/: arquivos de cena.
+- sounds/: arquivos de áudio.
+- sprites/: sprites e imagens do personagem ou objetos.
+
+Como usar
+---------
+- Coloque arquivos relacionados ao conteúdo visual ou sonoro aqui.
+- Mantenha nomes consistentes para facilitar a referência em JSON e YAML.

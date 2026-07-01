@@ -1,0 +1,12 @@
+Manual da pasta resource/sounds
+===============================
+
+Função
+------
+Esta pasta é dedicada aos arquivos de áudio do projeto.
+
+Como usar
+---------
+- Adicione aqui sons de ambiente, efeitos e trilhas.
+- Use formatos compatíveis como WAV, MP3 ou OGG.
+- Se introduzir sons novos, lembre-se de referenciá-los no código ou nas configurações do jogo.

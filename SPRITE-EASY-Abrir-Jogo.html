@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Sprite Easy</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="game-wrapper">
+  <header>
+    <h1>SPRITE EASY</h1>
+    <div class="hud">
+      <div class="pill">⭐ <b id="score">0</b></div>
+      <div class="pill">🪙 <b id="coins">0/8</b></div>
+      <div class="pill"><span id="lives">❤️❤️❤️</span></div>
+    </div>
+  </header>
+
+  <div class="canvas-wrap">
+    <canvas id="game" width="800" height="450"></canvas>
+    <div id="overlay" class="overlay hidden">
+      <div class="card">
+        <h2 id="title">VENCEU!</h2>
+        <p id="msg">Você coletou todas as moedas!</p>
+        <button id="restart" class="btn-restart">Jogar Novamente</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <div class="pad">
+      <button class="cbtn" data-act="left">◀</button>
+      <button class="cbtn" data-act="right">▶</button>
+    </div>
+    <div class="pad">
+      <button class="cbtn" data-act="down">▼</button>
+      <button class="cbtn" data-act="jump">▲</button>
+    </div>
+  </div>
+  <p class="tips">PC: ← → andar • ↑ / W / ESPAÇO pular • ↓ agachar • Celular: use os botões</p>
+</div>
+
+<script src="js/game-data.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

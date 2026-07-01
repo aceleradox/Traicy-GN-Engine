@@ -1,0 +1,11 @@
+Manual da pasta resource/effects
+================================
+
+Função
+------
+Esta pasta armazena efeitos visuais e partículas usados no jogo.
+
+Como usar
+---------
+- Adicione arquivos JSON ou imagens para criar fumaça, poeira, explosões e outros efeitos.
+- Mantenha os dados em formato simples para facilitar a leitura e edição.

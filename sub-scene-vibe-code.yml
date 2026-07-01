@@ -1,0 +1,24 @@
+project:
+  name: Sprite Easy Scenes
+  mode: scene-vibe-code
+  goal: criar e ajustar cenas com economia de créditos de IA
+  tools:
+    - cline
+    - vscode
+    - github
+  caution: |
+    Use este modo para editar cenas do jogo de forma leve e econômica.
+    A IA deve sugerir mudanças simples nos JSONs de cena e não inventar fluxos complexos sem aprovação.
+
+resource:
+  scenes:
+    folder: resource/scenes
+    supportedFormats:
+      - json
+
+configuration:
+  mainConfig: sub-script.json
+  sceneConfigPattern: resource/scenes/*.json
+  sceneEditorConfig: resource/scenes/scene-editor-config.json
+  optionalAiPrompt: |
+    Use este modo para editar a cena principal e outras cenas com foco em simplicidade e economia de créditos.

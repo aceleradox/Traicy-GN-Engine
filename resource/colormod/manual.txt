@@ -1,0 +1,12 @@
+Manual da pasta resource/colormod
+================================
+
+Função
+------
+Esta pasta é usada para armazenar configurações de colormod, filtros e ajustes visuais.
+
+Como usar
+---------
+- Adicione arquivos JSON para controlar brilho, contraste, saturação ou combinações de cor.
+- Os nomes dos arquivos devem ser claros e consistentes.
+- Se você criar um filtro novo, lembre-se de referenciá-lo na configuração do projeto.

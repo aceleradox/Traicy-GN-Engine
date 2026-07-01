@@ -1,0 +1,13 @@
+{
+  "name": "Mapa Visual",
+  "type": "visual-map-editor",
+  "target": "defold",
+  "editable": true,
+  "layers": [
+    "ground",
+    "decor",
+    "objects"
+  ],
+  "tileSize": 16,
+  "notes": "Configuração visual para edição do mapa em um fluxo semelhante ao Defold."
+}

@@ -1,0 +1,43 @@
+const gameData = {
+  title: 'SPRITE EASY',
+  physics: {
+    gravity: 0.65,
+    speed: 3.4,
+    jumpVel: -13.2,
+    friction: 0.85
+  },
+  playerStart: {
+    x: 50,
+    y: 320,
+    w: 26,
+    h: 38
+  },
+  platforms: [
+    { x: 0, y: 410, w: 800, h: 40 },
+    { x: 110, y: 330, w: 150, h: 16 },
+    { x: 310, y: 260, w: 120, h: 16 },
+    { x: 500, y: 330, w: 160, h: 16 },
+    { x: 180, y: 180, w: 100, h: 16 }
+  ],
+  enemies: [
+    { x: 120, y: 304, w: 26, h: 26, vx: 1.2, minX: 110, maxX: 110 + 150 - 26, dead: false },
+    { x: 520, y: 304, w: 26, h: 26, vx: -1.4, minX: 500, maxX: 500 + 160 - 26, dead: false },
+    { x: 350, y: 384, w: 26, h: 26, vx: 1.6, minX: 30, maxX: 770, dead: false }
+  ],
+  coins: [
+    { x: 140, y: 300, r: 8, taken: false },
+    { x: 230, y: 300, r: 8, taken: false },
+    { x: 340, y: 230, r: 8, taken: false },
+    { x: 400, y: 230, r: 8, taken: false },
+    { x: 540, y: 300, r: 8, taken: false },
+    { x: 630, y: 300, r: 8, taken: false },
+    { x: 210, y: 150, r: 8, taken: false },
+    { x: 700, y: 378, r: 8, taken: false }
+  ],
+  clouds: [
+    { x: 80, y: 70, s: 0.3, w: 120 },
+    { x: 350, y: 90, s: 0.2, w: 160 },
+    { x: 620, y: 60, s: 0.25, w: 140 },
+    { x: 500, y: 140, s: 0.15, w: 100 }
+  ]
+};
