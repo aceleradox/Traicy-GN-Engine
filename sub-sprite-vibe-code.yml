@@ -1,7 +1,7 @@
 project:
-  name: Sprite Easy Sprites
+  name: Traicy Louise Sprites v2
   mode: sprite-vibe-code
-  goal: gerar e editar sprites com economia de créditos de IA
+  goal: gerar e editar sprites com economia de créditos de IA para a versão 2
   tools:
     - cline
     - vscode
@@ -21,5 +21,8 @@ configuration:
   mainConfig: sub-script.json
   spriteConfigPattern: resource/sprites/*.json
   spriteImagePattern: resource/sprites/img/*.{png,bmp}
+  version: "2"
+  editable: true
+  preferLocalEdits: true
   optionalAiPrompt: |
     Use este arquivo para criar ou ajustar sprites com economia de créditos. Seja objetivo e simples. Não gere designs complexos sem aprovação do criador.

@@ -1,7 +1,7 @@
 project:
-  name: Sprite Easy Maps
+  name: Traicy Louise Maps v2
   mode: maps-vibe-code
-  goal: criar e editar mapas com economia de créditos de IA
+  goal: criar e editar mapas com economia de créditos de IA para a versão 2
   tools:
     - cline
     - vscode
@@ -20,6 +20,9 @@ configuration:
   mainConfig: sub-script.json
   mapConfigPattern: resource/maps/*.json
   visualMapConfig: resource/maps/map-editor-config.json
+  version: "2"
+  editable: true
+  preferLocalEdits: true
   optionalAiPrompt: |
     Use este modo para editar mapas, camadas e objetos do jogo com economia de créditos.
     A IA deve trabalhar com os arquivos JSON existentes e evitar respostas prolixas.
