@@ -1,11 +1,14 @@
 project:
-  name: Sprite Easy
+  name: Traicy Louise Engine v2
   mode: vibe-code
-  goal: reduzir consumo de créditos de IA usando configuração local e JSON
+  goal: adaptar a engine para versão 2, editável e leve, com economia de créditos
   tools:
     - cline
     - vscode
     - github
+  caution: |
+    Use arquivos JSON e configs locais sempre que possível.
+    Mantenha a estrutura simples e editável para Defold, navegador e backend.
 
 resource:
   sprites:
@@ -30,8 +33,11 @@ configuration:
   spriteConfigPattern: resource/sprites/*.json
   mapConfigPattern: resource/maps/*.json
   sceneConfigPattern: resource/scenes/*.json
+  version: "2"
+  editable: true
+  preferLocalEdits: true
   creditSaving: true
   optionalAiPrompt: |
     Use este projeto como base para editar sprites, maps, scenes, controls, animation, sounds e effects com economia de créditos.
-    Este modo foi criado para reduzir chamadas de IA diretas e evitar gasto rápido de créditos no GitHub Copilot/Cline/VS Code.
-    Seja objetivo e use os arquivos existentes como referência.
+    Esta versão 2 deve priorizar edição local, estrutura leve e uso de arquivos JSON já existentes.
+    Seja objetivo e evite respostas longas ou invenções desnecessárias.

@@ -3,46 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="description" content="Versão adaptada do Sprite Easy para GitHub Pages e base para Defold.">
-  <title>Sprite Easy</title>
+  <meta name="description" content="Canvas em branco para edição de cena, pronto para Defold e recursos do projeto.">
+  <title>Editor de Cena</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="game-wrapper">
-    <header>
-      <h1>SPRITE EASY</h1>
-      <div class="hud">
-        <div class="pill">⭐ <b id="score">0</b></div>
-        <div class="pill">🪙 <b id="coins">0/8</b></div>
-        <div class="pill"><span id="lives">❤️❤️❤️</span></div>
+  <main class="editor-shell">
+    <header class="topbar">
+      <div>
+        <h1>Editor de cena</h1>
+        <p>Canvas limpo e pronto para montar o jogo. Use os arquivos abaixo como base para editar.</p>
       </div>
+      <nav class="resource-links" aria-label="Arquivos do projeto">
+        <a href="data/game-config.json" target="_blank" rel="noreferrer">game-config</a>
+        <a href="resource/scenes/main.json" target="_blank" rel="noreferrer">scene</a>
+        <a href="resource/sprites/player.json" target="_blank" rel="noreferrer">player</a>
+        <a href="resource/maps/level-1.json" target="_blank" rel="noreferrer">map</a>
+        <a href="game.project" target="_blank" rel="noreferrer">defold</a>
+      </nav>
     </header>
 
-    <div class="canvas-wrap">
+    <section class="canvas-card">
       <canvas id="game" width="800" height="450"></canvas>
-      <div id="overlay" class="overlay hidden">
-        <div class="card">
-          <h2 id="title">VENCEU!</h2>
-          <p id="msg">Você coletou todas as moedas!</p>
-          <button id="restart" class="btn-restart">Jogar Novamente</button>
-        </div>
-      </div>
-    </div>
+    </section>
 
-    <div class="controls">
-      <div class="pad">
-        <button class="cbtn" data-act="left">◀</button>
-        <button class="cbtn" data-act="right">▶</button>
-      </div>
-      <div class="pad">
-        <button class="cbtn" data-act="down">▼</button>
-        <button class="cbtn" data-act="jump">▲</button>
-      </div>
-    </div>
-    <p class="tips">PC: ← → andar • ↑ / W / ESPAÇO pular • ↓ agachar • Celular: use os botões</p>
-  </div>
+    <p class="status">Modo edição • canvas branco • projeto leve • compatível com Defold</p>
+  </main>
 
-  <script src="abacato.js"></script>
   <script src="js/game-data.js"></script>
   <script src="js/main.js"></script>
 </body>

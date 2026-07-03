@@ -1,7 +1,7 @@
 project:
-  name: Sprite Easy Scenes
+  name: Traicy Louise Scenes v2
   mode: scene-vibe-code
-  goal: criar e ajustar cenas com economia de créditos de IA
+  goal: criar e ajustar cenas com economia de créditos de IA para a versão 2
   tools:
     - cline
     - vscode
@@ -20,5 +20,8 @@ configuration:
   mainConfig: sub-script.json
   sceneConfigPattern: resource/scenes/*.json
   sceneEditorConfig: resource/scenes/scene-editor-config.json
+  version: "2"
+  editable: true
+  preferLocalEdits: true
   optionalAiPrompt: |
-    Use este modo para editar a cena principal e outras cenas com foco em simplicidade e economia de créditos.
+    Use este modo para editar a cena principal e outras cenas com foco em simplicidade, edição local e economia de créditos.

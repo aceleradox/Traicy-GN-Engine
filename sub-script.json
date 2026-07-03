@@ -1,12 +1,22 @@
 {
   "project": {
-    "name": "Sprite Easy",
-    "version": "1.0.0",
-    "target": ["github-pages", "defold"],
-    "entry": "game.html",
+    "name": "Traicy Louise Engine v2",
+    "version": "2.0.0",
+    "engine": "defold-editable",
+    "targets": ["defold", "browser", "backend"],
+    "entry": "game.project",
+    "browserEntry": "game.html",
     "rootForGit": true,
     "backendOptional": true,
-    "backendConfig": "criar-backend.yml"
+    "backendConfig": "criar-backend.yml",
+    "editable": true,
+    "lowCreditWorkflow": true,
+    "compatibility": {
+      "defoldMinVersion": "1.0",
+      "defoldMaxVersion": "latest",
+      "lightEngines": true,
+      "minimalFeatures": true
+    }
   },
   "sprites": [
     {

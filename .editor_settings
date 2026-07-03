@@ -1,0 +1,18 @@
+{
+  :workflow {
+    :recent-files [
+      [
+        "/game.project"
+        :cljfx-form-view
+      ]
+      [
+        "/main.script"
+        :code
+      ]
+      [
+        "/main.collection"
+        :scene
+      ]
+    ]
+  }
+}

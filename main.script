@@ -1,0 +1,3 @@
+function init(self)
+    print("Traicy Louise Game Engine ready")
+end

@@ -1,0 +1,17 @@
+[project]
+title = Traicy Louise Game Engine v2
+version = 2.0
+
+[bootstrap]
+main_collection = /main.collection
+
+[display]
+width = 800
+height = 450
+
+[graphics]
+default_texture_min_filter = nearest
+default_texture_mag_filter = nearest
+
+[physics]
+gravity_y = -900

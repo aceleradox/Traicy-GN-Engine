@@ -1,7 +1,7 @@
 {
-  "name": "Sprite Easy",
+  "name": "Traicy Louise Game Engine v2",
   "target": "defold",
   "root": ".",
-  "entry": "game.html",
-  "notes": "Arquivo raiz para facilitar a importação e o versionamento no fluxo do Defold."
+  "entry": "game.project",
+  "notes": "Versão 2 leve e compatível com Defold 1.x e versões mais recentes, com canvas em branco e recursos simples para navegador e backend."
 }
