@@ -2,7 +2,9 @@
 
 # para o clone da versao 2 digite no terminal/cmd
 git clone -b trayce-GN-Engine-v1.2 https://github.com/aceleradox/Traicy-GN-Engine.git
-adaptada para o Defold Engine
+
+
+#adaptada para o Defold Engine
 
 Este projeto foi adaptado para funcionar como uma base simples para GitHub Pages, testes rápidos em navegador e futura integração com Defold.
 
